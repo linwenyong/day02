@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring03_01 (1)" />
+        <module name="spring03_03 (1)" />
+        <module name="spring03_04 (1)" />
+        <module name="spring04_02 (1)" />
+        <module name="spring04_03 (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring01" target="1.8" />
+      <module name="spring01_01" target="1.8" />
+      <module name="spring01_02" target="1.8" />
+      <module name="spring01_03" target="1.8" />
+      <module name="spring01_04" target="1.8" />
+      <module name="spring02_01" target="1.8" />
+      <module name="spring02_02" target="1.8" />
+      <module name="spring03_01" target="1.8" />
+      <module name="spring03_01 (1)" target="1.8" />
+      <module name="spring03_02" target="1.8" />
+      <module name="spring03_03" target="1.8" />
+      <module name="spring03_03 (1)" target="1.8" />
+      <module name="spring03_04" target="1.8" />
+      <module name="spring03_04 (1)" target="1.8" />
+      <module name="spring03_05" target="1.8" />
+      <module name="spring04_01" target="1.8" />
+      <module name="spring04_02" target="1.8" />
+      <module name="spring04_02 (1)" target="1.8" />
+      <module name="spring04_03" target="1.8" />
+      <module name="spring04_03 (1)" target="1.8" />
+      <module name="spring04_04" target="1.8" />
+      <module name="spring04_05" target="1.8" />
+      <module name="springmvc01" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

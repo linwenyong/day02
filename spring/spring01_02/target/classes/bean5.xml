@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="person" class="com.itheima.person.Person">
+        <property name="list">
+            <list>
+                <value>list1</value>
+                <value>list2</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <value>set1</value>
+                <value>set2</value>
+            </set>
+        </property>
+        <property name="array">
+            <array>
+                <value>array1</value>
+                <value>array2</value>
+            </array>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="map1" value="值1"></entry>
+                <entry key="map2" value="值2"></entry>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="properties1">属性1</prop>
+                <prop key="properties2">属性2</prop>
+            </props>
+        </property>
+
+    </bean>
+
+</beans>
